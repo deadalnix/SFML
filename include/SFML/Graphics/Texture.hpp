@@ -35,7 +35,6 @@
 namespace sf
 {
 class Window;
-class Renderer;
 class RenderTexture;
 class InputStream;
 
@@ -424,7 +423,6 @@ public :
 
 private :
 
-    friend class Renderer;
     friend class RenderTexture;
 
     ////////////////////////////////////////////////////////////
